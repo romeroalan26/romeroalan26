@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(38, 78, 114);
+            margin-top: 70px;
+            font-family: Open Sans;
+
+        }
+
+        header {
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            color: black;
+            font-family: 'Open Sans';
+            justify-content: end;
+            align-items: center;
+            height: 50px;
+            font-size: 15px;
+        }
+
+        header div {
+            margin-left: 18px;
+        }
+
+        .banreservas {
+            background-color: rgb(0, 174, 240);
+            color: white;
+            margin-right: 120px;
+            padding: 19px 5px 19px 5px;
+            border-radius: 2px;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+        }
+
+        .logo {
+            width: 285.5px;
+        }
+
+        .sello {
+            width: 120px;
+        }
+
+        .banreservas-logo {
+            text-align: center;
+        }
+
+        .banreservas-sello {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .log-in {
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            background-color: white;
+            width: 650px;
+            height: 490px;
+            margin-top: 17px;
+
+        }
+
+        .log-in-section {
+            flex: 1;
+        }
+
+        .personas {
+            width: 300px;
+            height: 470px;
+            margin: 10px 10px 10px 10px;
+            object-fit: cover;
+            object-position: 30%;
+        }
+
+        .bienvenidos {
+            padding: 15px 10px 15px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(0, 174, 240);
+            color: white;
+            left: 0;
+            font-size: 13px;
+        }
+
+        .ingresar,
+        .contraseña {
+            margin-left: 15px;
+            margin-top: 10px;
+            font-size: 13px;
+        }
+
+        input {
+            margin-left: 15px;
+            padding: 15px;
+            width: 274px;
+            border-width: 0px;
+            border-left-width: 5px;
+            border-left-color: rgb(255, 199, 78);
+            border-left-style: solid;
+            margin-top: 3px;
+            background-color: rgb(249, 243, 252);
+            font-size: 13px;
+        }
+
+        .opciones {
+            text-align: end;
+            text-decoration: underline;
+        }
+
+        .continuar {
+            background-color: rgb(255, 255, 255);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p {
+            background-color: rgb(0, 174, 240);
+            padding-top: 14px;
+            padding-bottom: 14px;
+            padding-left: 119px;
+            padding-right: 125px;
+            font-size: 15px;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+
+        .nuevo,
+        .olvido {
+            margin-top: 10px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .cambiar{
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .teclado{
+            display: flex;
+            position: absolute;
+            color:white;
+            font-size: 11px;
+            vertical-align: middle;
+            bottom: -25px;
+            right: 40px;
+        }
+        
+    </style>
+    <title>
+        Test
+    </title>
+</head>
+
+<body>
+    <header>
+        <div class="contacto">Contáctenos</div>
+        <div class="idioma">Idioma</div>
+        <div class="ayuda">Ayuda</div>
+        <div class="banreservas">Banreservas.com</div>
+    </header>
+
+    <main>
+        <div class="banreservas-logo">
+            <img src="images/logo_banreservas.png" class="logo">
+        </div>
+        <section>
+
+            <div class="log-in">
+                <div class="log-in-section">
+                    <div class="bienvenidos">
+                        Bienvenidos a TuBanco Personas
+                    </div>
+                    <div class="ingresar">
+                        Ingrese su usuario
+                    </div>
+                    <input type="text" placeholder="USUARIO">
+                    <div class="contraseña">Contraseña</div>
+                    <input type="text" placeholder="CONTRASEÑA">
+                    <div class="continuar">
+                        <p>Continuar</p>
+                    </div>
+                    <div class="opciones">
+                        <div class="cambiar">
+                            Cambiar a TuBanco Empresas
+                        </div>
+                        <div class="nuevo">
+                            Nuevo usuario persona
+                        </div>
+                        <div class="olvido">
+                            ¿Olvidó su contraseña?
+                        </div>
+                    </div>
+                </div>
+                <div class="logo-section">
+                    <div class="logo-personas">
+                        <img src="images/profilepersonas.jpg" class="personas">
+                    </div>
+                </div>
+                <div class="teclado">
+                    <img src="images/teclado_virtual_chico_ac.gif"> Teclado virtual
+                </div>
+            </div>
+        </section>
+        <div class="banreservas-sello">
+            <img src="images/sello_superintendencia.png" class="sello">
+        </div>
+    </main>
+</body>
+
+</html>
