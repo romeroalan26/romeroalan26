@@ -1,8 +1,4 @@
-- 👋 Hi, I’m @romeroalan26
-- 👀 I’m interested on leaning to code using different programming languages
-- 🌱 I’m currently learning HTML - CSS - Javascrip. I study Systems Engineering
-- 💞️ I’m looking to collaborate on any project where I can use my web development skills to improve my knowledge while getting experience.
-- 📫 How to reach me: alan.266@hotmail.com
+- 👋 Hi there! My name is Alan Romero and I'm from the Dominican Republic. I'm excited to pursue a career as a web developer and put my programming skills to use in a professional setting. I have a strong foundation in HTML, CSS, and JavaScript, which I've honed through various projects and personal pursuits. I believe that the ability to create visually appealing and functional websites is a crucial aspect of modern business, and I'm eager to contribute to that field.
 
 <!---
 romeroalan26/romeroalan26 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
