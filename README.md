@@ -16,7 +16,6 @@
 ### 🔭 Projects I'm working on
 
 - 🧾 **POSFacturaRD** – a POS + e-invoicing system for small businesses  
-- 📊 **PFM** – a personal finance management API  
 - 💼 Helping businesses automate and modernize their operations  
 
 ### 📫 Contact
