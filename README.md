@@ -7,7 +7,7 @@
 
 ### 🚀 Tech Stack
 
-- 💻 Languages: JavaScript, TypeScript, Java, SQL, Python  
+- 💻 Languages: JavaScript, TypeScript, SQL, Python  
 - 🌐 Frontend: React, TailwindCSS, Vite  
 - 🔧 Backend: Node.js, Express, PostgreSQL, MongoDB, Kafka  
 - ☁️ DevOps: Docker, OpenShift, GitHub Actions, Cloudflare Tunnel  
