@@ -9,8 +9,9 @@
 
 ### 🧠 About Me
 
-I'm a software engineer building end-to-end solutions — from backend APIs to modern frontends — with strong emphasis on **security, performance, and clean architecture**.  
-I design systems that help **businesses automate, analyze, and scale** using technologies like **Kafka**, **Supabase**, and **AI (Gemini)**.
+I’m a software engineer specialized in building **secure, scalable, and intelligent systems**.  
+My work integrates **backend reliability**, **frontend usability**, and **cloud automation**, with a focus on **business process optimization**, **fintech**, and **AI integration**.  
+I design and deploy modern, production-ready solutions across hybrid architectures — from **Raspberry Pi servers** to **OpenShift** and **Cloudflare-based environments**.
 
 ---
 
@@ -62,18 +63,35 @@ I design systems that help **businesses automate, analyze, and scale** using tec
 | Project | Description | Stack |
 |----------|--------------|--------|
 | 🧾 **POSFacturaRD** | POS + e-invoicing system for small and medium businesses in 🇩🇴 | Node.js, PostgreSQL, Cloudflare Tunnel |
-| 💰 **Planificash** | Personal finance planner powered by AI | React Native, Supabase, Gemini |
-| 🩺 **Consultamed** | Medical assistant and multi-clinic management system | Next.js, Supabase, AI |
-| 🍰 **Repostera** | AI assistant for bakery businesses | React Native, Supabase, Gemini |
+| 💰 **Planificash** | AI-powered personal finance planner | React Native, Supabase, Gemini |
+| 🩺 **Consultamed** | Medical assistant and multi-clinic management SaaS | Next.js, Supabase, Gemini |
+| 🍰 **Repostera** | AI assistant for bakery businesses (recipes & processes) | React Native, Supabase, Gemini |
 | 🏗 **Archimedes ERP** | Accounting & management system for construction companies | React, Node.js, PostgreSQL |
+| 🧾 **Taxes247** | Web app for tax preparers and clients | React (Vite), Node.js, MongoDB, Firebase Auth |
+| 🏢 **Operantis** | Business management suite integrating POS, accounting, and inventory for SMEs | Node.js, PostgreSQL, React, Cloudflare, Docker |
+
+---
+
+### 🧱 Infrastructure & DevOps Lab
+
+#### 💻 Raspberry Pi Lab
+I maintain a **self-hosted Raspberry Pi 4 B cluster (Debian Bookworm 64-bit)** used as a **hybrid development and testing environment** for APIs, databases, and automation scripts.  
+It hosts multiple Node.js and PostgreSQL services exposed securely via **Cloudflare Tunnels**, managed with **Portainer**, **Cockpit**, and **Uptime Kuma**.
+
+#### ⚙️ DevOps Environment
+My personal DevOps ecosystem includes **Dockerized microservices**, continuous delivery with **GitHub Actions**, and observability tools.  
+I regularly experiment with **Argo CD**, **OpenShift**, **pm2**, and **systemd** to deploy and monitor distributed workloads across **local and cloud environments**.
+
+> 💡 This setup allows me to replicate production-grade environments locally for integration testing, caching, and performance optimization.
 
 ---
 
 ### 🌱 Currently Learning
-- **Distributed Systems** & advanced Kafka configurations  
-- **React Native + Expo** for mobile development  
+
+- **Distributed Systems** & advanced Kafka security  
+- **React Native + Expo** for mobile app development  
 - **Cloudflare Tunnels** and hybrid deployments  
-- **AI-assisted workflows** for real-time business analytics  
+- **AI + Supabase integration** for real-time analytics and automation  
 
 ---
 
